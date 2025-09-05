@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: rgb(62, 62, 62);
+    --input: rgb(90, 90, 90);
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--black);
+    background: #dedede;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper>h1 {
+    text-align: center; 
+    padding: 0 0 10px 0;
+}
+
+.wrapper>fieldset {
+    padding: 10px;
+    
+}
+
+.wrapper {
+    margin: 45px 0;
+    padding: 40px;
+    box-shadow: 3px 3px 6px rgba(74, 74, 74, 0.146), -2px -2px 6px rgba(101, 101, 101, 0.087);
+    border-radius: 20px;
+    height: auto;
+    background: white;
+    width: 680px;
+}
+
+
+
+input:is([type="text"], [type="email"], [type="tel"], [type="url"], [type="date"], [type="search"], [type="password"]), select{
+    padding: 4px 5px 4px 10px;
+    outline: none;
+    border: 1px solid var(--input);
+    border-radius: 5px;
+    display: inline;
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+
+input[type="date"] {
+    padding: 4px 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+
+
+
+label {
+    color: var(--black);
+    display: block;
+    margin-bottom: 4px;
+}
+
+
+
+.containers {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    /* justify-content: center; */
+    
+    margin: 5px 0;
+    width: 254px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+legend {
+    margin-left: 25px;
+    padding: 2px 5px;
+}
+
+fieldset {
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 10px;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 40px;
+}
+
+select {
+    color: var(--black);
+}
+
+textarea {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 8px;
+    resize: none;
+    outline: none;
+    min-height: 100px;
+    min-width: 240px;
+    border-radius: 5px;
+}
+
+
+input[type="submit"]{
+    margin-top: -18px;
+    margin-bottom: 12px;
+    padding: 8px 18px;
+    border: none;
+    background: rgb(71, 71, 243);
+    color: white;
+    border-radius: 16px;
+    cursor: pointer;
+
+    &:hover {
+        background: rgb(103, 103, 255);
+    }
+}

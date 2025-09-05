@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Form | Company Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Our Job Form</h1>
+        
+        <form action="">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class="row">
+                    <div class="containers">
+                        <label for="">Full Name:</label>
+                        <input type="text" placeholder="John Stewart">
+                    </div>
+
+                    <div class="containers">
+                        <label for="">Email:</label>
+                        <input type="email" placeholder="johnstewart@gmail.com">
+                    </div>
+                </div>
+        
+
+                <div class="row">
+                    <div class="containers">
+                        <label for="">Phone no:</label>
+                        <input type="tel" placeholder="+92 3123456789">
+                    </div>
+                
+                    <div class="containers">
+                        <label for="">Portfolio:</label>
+                        <input type="url" placeholder="www.johnstewart.com">
+                    </div>
+                </div>
+
+                <div class="row1">
+                    <div class="containers">
+                    <label for="">Date of Birth:</label>
+                    <input type="date">
+                </div>
+                </div>
+            </fieldset>
+
+
+            <fieldset id="fieldset2">
+                <legend>Job Details</legend>
+                <div class="row">
+                    <div class="containers">
+                        <label for="">Job Position:</label>
+                        <select>
+                            <option value="Job1">Frontend Developer</option>
+                            <option value="">Backend Developer</option>
+                            <option value="">UI/UX Designer</option>
+                            <option value="">QA Engineer</option>
+                        </select>
+                    </div>
+
+
+                    <div class="containers">
+                        <label for="">Upload Resume:</label>
+                        <input type="file" name="resume" id="">
+                    </div>
+                </div>
+        
+
+                <div class="row">
+                    <div class="containers">
+                        <label for="">Skills:</label>
+                        <label for=""><input id="option1" type="checkbox">HTML/CSS </label>
+                        <label for=""><input type="checkbox">JavaScript</label>
+                        <label for=""><input type="checkbox">React JS</label>
+                        <label for=""><input type="checkbox">Node JS</label>
+                        <label for=""><input type="checkbox">Figma</label>
+
+                    </div>
+                
+                    <div class="containers">
+                        <label for="">Prefered Work Location:</label>
+                        <label for=""><input name="work-location" type="radio">On-site</label>
+                         <label for=""><input name="work-location" type="radio">Remote</label>
+                         <label for=""><input name="work-location" type="radio">Hybrid</label>
+                    </div>
+                </div>
+
+                <div class="row1">
+                    <div class="containers">
+                    <label for="">Write About Yourself:</label>
+                    <textarea name="" id="" placeholder="Share your background, skills, and experiences…"></textarea>
+                </div>
+                </div>
+
+            </fieldset>
+
+
+            <fieldset id="fieldset3">
+                <legend>Extras</legend>
+
+                <div class="row">
+                    <div class="containers">
+                        <label for="">Password:</label>
+                        <input type="password" placeholder="●●●●●●●●●">
+                    </div>
+
+                    <div class="containers">
+                        <label for="">Confirm Password:</label>
+                        <input type="password" placeholder="●●●●●●●●●">
+                    </div>
+                </div>
+
+                <div class="row1">
+                    <div class="containers">
+                        <label for="">Search for your Tech Stack:</label>
+                        <input type="search" name="q" id="" placeholder="Search..." list="suggestions">
+                    </div>
+
+
+                    <datalist id="suggestions">
+                        <option value="MERN Stack">
+                        <option value="MEAN Stack">
+                        <option value="Django Full Stack">
+                        <option value="Java Full Stack">
+                        <option value=".Net Full Stack">
+                    </datalist>
+                </div>
+
+                <datalist id="suggestions">
+                    <option value="MERN Stack">
+                    <option value="MEAN Stack">
+                    <option value="Django Full Stack">
+                    <option value="Java Full Stack">
+                    <option value=".Net Full Stack">
+                </datalist>
+            </fieldset>
+
+            <div class="row" style="justify-content: center;">
+                <input type="submit" value="Submit">
+            </div>
+
+            <span style="color: gray;">&copy; Developed by Habil Aris</span>
+        </form>
+    </div>
+</body>
+</html>
