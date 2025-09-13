@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: var(--black);
     background: #dedede;
     display: flex;
@@ -58,7 +58,7 @@ input[type="radio"], input[type="checkbox"] {
 input[type="date"] {
     padding: 4px 10px;
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: gray;
 }
 
@@ -110,7 +110,7 @@ select {
 }
 
 textarea {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: 5px 8px;
     resize: none;
     outline: none;
